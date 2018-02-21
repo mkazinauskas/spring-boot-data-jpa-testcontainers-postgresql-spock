@@ -24,8 +24,14 @@ repositories {
 
 
 dependencies {
+    compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.liquibase:liquibase-core')
 	compile('org.codehaus.groovy:groovy')
+
+	runtime('org.postgresql:postgresql')
+
+    testCompile 'org.testcontainers:postgresql:1.6.0'
+
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

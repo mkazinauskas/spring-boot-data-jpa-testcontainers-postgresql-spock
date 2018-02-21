@@ -1,0 +1,11 @@
+spring:
+  profiles.active: test
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
+    url: jdbc:tc:postgresql://hostname/cars
+    username: username
+    password: password
+
