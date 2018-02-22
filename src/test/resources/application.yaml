@@ -5,7 +5,4 @@ spring:
       ddl-auto: validate
   datasource:
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
-    url: jdbc:tc:postgresql://hostname/cars
-    username: username
-    password: password
-
+    url: jdbc:tc:postgresql://hostname/databasename

@@ -19,3 +19,8 @@ databaseChangeLog:
                   constraints:
                     nullable: false
                     unique: true
+        - createSequence:
+            schemaName: public
+            sequenceName: cars_sequence
+            incrementBy: 1
+            startValue: 1
