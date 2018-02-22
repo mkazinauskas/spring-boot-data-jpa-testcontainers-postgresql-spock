@@ -1,0 +1,10 @@
+spring:
+  profiles.active: prod
+  jpa:
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://hostname:port/databasename
+    username: username
+    password: password
