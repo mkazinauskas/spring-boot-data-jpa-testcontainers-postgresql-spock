@@ -33,5 +33,5 @@ dependencies {
 	testCompile 'org.springframework.boot:spring-boot-starter-test'
 	testCompile 'org.spockframework:spock-core:1.1-groovy-2.4'
 	testCompile 'org.spockframework:spock-spring:1.1-groovy-2.4'
-	testCompile 'org.testcontainers:postgresql:1.6.0'
+	testCompile 'org.testcontainers:postgresql:1.8.3'
 }
