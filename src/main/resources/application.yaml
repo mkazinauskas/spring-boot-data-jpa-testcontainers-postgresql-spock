@@ -3,6 +3,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
+    properties.hibernate.jdbc.lob.non_contextual_creation: true
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://hostname:port/databasename

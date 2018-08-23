@@ -16,6 +16,6 @@ class CarsRepositorySpec extends Specification {
         when:
             Long id = cars.save(car).id
         then:
-            cars.findOne(id).title == 'Audi'
+            cars.findById(id).get().title == 'Audi'
     }
 }
